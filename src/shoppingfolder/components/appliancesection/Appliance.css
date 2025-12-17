@@ -1,0 +1,39 @@
+.appliance-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 15px 0;
+}
+
+
+.left-small {
+  width: 30%;
+  gap:40px;
+}
+
+.small-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 35px;                               
+}
+
+.small-grid img {
+  width: 100%;
+  height: 100%;
+  border:  solid #ccc;
+  padding: 5px 5px;
+  gap: 5px;
+}
+
+.right-big {
+  width: 70%;
+  display: flex;
+}
+
+.right-big img {
+  width: 100%;
+  height: 465px;
+}
